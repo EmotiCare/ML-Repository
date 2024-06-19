@@ -1,5 +1,10 @@
-# Emoticare-ML
-Simple Chatbot about Mental Health using TensorFlow in Python
+# Emoticare Machine Learning Documentation
+Simple Chatbot about Mental Health using TensorFlow in Python.
+
+## Tools and Python Modules Used
+- Kaggle Notebooks
+- PyCharm Community Edition 2024.1.1
+- Visual Studio Code
 
 ## Data Collection
 This project involves the development of a simple mental health chatbot model by leveraging three distinct datasets. Here's a detailed breakdown of each dataset:
