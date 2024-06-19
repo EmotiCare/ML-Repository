@@ -5,6 +5,11 @@ Simple Chatbot about Mental Health using TensorFlow in Python.
 - Kaggle Notebooks
 - PyCharm Community Edition 2024.1.1
 - Visual Studio Code
+- Keras 2.13.1
+- Matplotlib 3.7.5
+- Pandas 2.0.3
+- Numpy 1.24.3
+- NLTK 3.8.1
 
 ## Data Collection
 This project involves the development of a simple mental health chatbot model by leveraging three distinct datasets. Here's a detailed breakdown of each dataset:
