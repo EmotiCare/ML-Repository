@@ -35,3 +35,11 @@ This process will generate three output files: `chatbotmodel.h5`, `classes.pkl`,
 
 ## Run the Chatbot
 After the model training is complete, the `main.py` code is then created to test the chatbot model's ability to respond to given inputs.
+
+## Model Architecture
+Our model is a sequential neural network with three fully connected (dense) layers and dropout regularization.
+<img width="448" alt="Screen Shot 2024-06-19 at 21 47 46" src="https://github.com/arethakm/Emoticare-ML/assets/100418478/bcab9698-8f50-4110-8bc9-2b83244d2a7d">
+
+## Model Performace
+The training accuracy was reaching 96.52% as shown down below.
+<img width="631" alt="Screen Shot 2024-06-19 at 21 48 27" src="https://github.com/arethakm/Emoticare-ML/assets/100418478/e669ff70-58ab-42ea-b95f-ec56e45ba23d">
