@@ -6,13 +6,14 @@ Simple Chatbot about Mental Health using TensorFlow in Python.
 - PyCharm Community Edition 2024.1.1
 - Visual Studio Code
 - Keras 2.13.1
+- TensorFlow 2.13.0
 - Matplotlib 3.7.5
 - Pandas 2.0.3
 - Numpy 1.24.3
 - NLTK 3.8.1
 
 ## Data Collection
-This project involves the development of a simple mental health chatbot model by leveraging three distinct datasets. Here's a detailed breakdown of each dataset:
+This project involves the development of a simple mental health chatbot model by leveraging three distinct datasets, along with additional data collected by our team. Here's a detailed breakdown of each dataset:
 #### Dataset 1: Chatbot for Mental Health Conversations
 The [Chatbot for Mental Health Conversations](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations/) is obtained from Kaggle.
 #### Dataset 2: Therapist Patient Conversation Dataset
@@ -23,7 +24,7 @@ The [Conversations dataset for chatbot](https://www.kaggle.com/datasets/kanikama
 The three datasets were merged into a single master dataset using the code provided in `dataset-merged.ipynb`. The merging process was based on intents, which include tag, patterns, and responses. Duplicate entries were then removed from the dataset. After merging, the dataset was saved as combined_dataset.json and then renamed to `intense.json`. The purpose of merging the datasets was to enrich the dataset with relevant information. 
 
 ## Training the Model
-The code in 'training.py' handles the training process for the chatbot model. Here's a breakdown of the key steps involved:
+The code in `training.py` handles the training process for the chatbot model. Here's a breakdown of the key steps involved:
 #### 1. Text Preprocessing
 The script utilizes a class called WordNetLemmatizer() to perform word lemmatization. This process identifies the base or root form of words, ensuring the chatbot can recognize various inflections of the same word. 
 #### 2. One-Hot Encoding
